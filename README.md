@@ -1,8 +1,8 @@
-# Image Classification Application using pre-trained ResNet-18 model
+# Image Classification
 
 ## Introduction
 
-This repository features an **Image Classification Application** built on the **ResNet-18 model**, leveraging pre-trained weights for efficient and accurate classification. Developed entirely in **Python**, this project highlights the power of transfer learning in simplifying complex image recognition tasks. It's a practical tool for exploring deep learning in image classification!
+This repository features an **Image Classification** application built on the **ResNet-18 model**, leveraging pre-trained weights for efficient and accurate classification. Developed entirely in **Python**, this project highlights the power of transfer learning in simplifying complex image recognition tasks. It's a practical tool for exploring deep learning in image classification!
 
 ## Table of Contents
 
@@ -31,8 +31,7 @@ image-classification/
 
 ## Features
 
-- Image Captioning Application using pre-trained ResNet-18 model
-- Using Gradio UI
+Classify a image uploaded by user.
 
 ## Installation
 
@@ -50,11 +49,11 @@ To install this project, open your Terminal and follow these steps:
     $ cd "$(find . -type d -name "image-classification")"
     ```
 
-3. Create a Python virtual environment `venv` and install the required dependencies:
+3. Create a Python virtual environment `.venv` and install the required dependencies:
 
     ```sh
-    $ python3 -m venv venv
-    source venv/bin/activate
+    $ python3 -m venv .venv
+    source .venv/bin/activate
     pip install -r requirements.txt
     ```
 
